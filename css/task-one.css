@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+.navbar h2{
+    text-transform: uppercase;
+    color: rgb(250, 150, 96);
+}
+.navbar span{
+    color: rgb(250, 106, 96);
+}
+.header .img img{
+    width: 100% ;
+    height: 85vh;
+}
+
+
+/** start body **/
+
+
+.body1 .section2{
+    display: flex;
+    
+}
+.body1 .section2 img{
+    margin-right: 10px;
+}
+.body1 .section2 p{
+    color: #f0a00b;
+    font-weight: bold;
+}
+.body1 .section3 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.body1 .section3 button{
+    background-color: rgb(244, 164, 96);
+    color: #fff;
+    
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.body1 .row .section1 img{
+    width: 45%;
+
+}
+.body1 .row .section2 img{
+    width: 15%;
+}
+
+/** end body **/ 
+
+/** start recent work **/
+.recentwork p{
+    color:rgb(244, 164, 96) ;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder ;
+   
+}
+.recentwork hr{
+    
+    height: 18px;
+    background-color: gray;
+    
+}
+/** end recent work **/
+
+
+/** start works **/ 
+.works .section1{
+    border: 1px solid #ddd;
+    
+}
+.works .section1 img {
+    width: 100%;
+}
+
+/** end works **/
+
+/** start footer **/
+.footer{
+    background-color: orangered;
+    padding: 15px;
+}
+.footer img{
+    width: 15px;
+    
+}
+
+/** end footer **/
+
+@media(max-width:500px)
+{
+    .recentwork p{
+        text-align: center;
+    }
+    .recentwork hr{
+    
+        height: 10px;
+        background-color: gray;
+        
+    }
+
+}
